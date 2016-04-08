@@ -5,7 +5,7 @@ gem 'github_api'
 gem 'rails', '4.2.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
-
+gem 'bootstrap-sass',       '3.2.0.0'
 gem 'rails_12factor'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
