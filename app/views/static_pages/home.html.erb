@@ -2,7 +2,7 @@
 <%= form_tag help_path, :method => 'get' do -%>
 <div>
 <%= text_field_tag :search, params[:search] %>
-<%= submit_tag 'Find' %></div>
+<%= submit_tag 'Find',class: "btn btn-lg btn-primary" %></div>
 
 <% end -%>
 </div>
