@@ -31,6 +31,10 @@ Heroku app link: [sanket_assignment]
 
 [sanket_assignment]: <https://shrouded-escarpment-34552.herokuapp.com/>
 
+# Improvements
+* Error Handling if the given link is wrong
+
+
 
 
 
