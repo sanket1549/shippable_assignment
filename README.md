@@ -7,12 +7,18 @@ The app is based on Ruby on Rails web framework.
 
 > "Github-api" gem available for Ruby on Rails is used to extract the number of issues from a particular repository.
 
+# Documents to look for:
+
+*  **Controller**: app/controllers/static_pages_controller.rb
+*  **View**: app/views/static_pages/home.html.erb
+*  **View**: app/views/static_pages/help.html.erb
+*  **Routes**: config/routes.rb
 # Method:
 
 * The user provides the link for the repository from which the number of issues has to be extracted.
 * The user name and repository name is extracted from the link provided.
 * Personal OAuth_token provided by github is used to authentication for extracting the data.
-* Github.search.issues function is called that takes string which inclueds the following parameters.
+* Github.search.issues function is called which takes string which inclueds the following parameters.
    - type: issue (for extracting only issue and not pull request)
    - repo: username/repository_name
    - state: open (for extracting open issues)
