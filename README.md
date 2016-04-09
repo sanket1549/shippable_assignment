@@ -12,7 +12,7 @@ The app is based on Ruby on Rails web framework.
 * The user provides the link for the repository from which the number of issues has to be extracted.
 * The user name and repository name is extracted from the link provided.
 * Personal OAuth_token provided by github is used to authentication for extracting the data.
-* Github.search.issues function is called which takes string which inclueds the following parameters.
+* Github.search.issues function is called that takes string which inclueds the following parameters.
    - type: issue (for extracting only issue and not pull request)
    - repo: username/repository_name
    - state: open (for extracting open issues)
